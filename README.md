@@ -1,7 +1,10 @@
+# This is a Fork of activebyte's loxone connect plugin
+It seems Activebyte has the most up-to-date and maintained loxone plugin for homebridge. The purpose of this fork is improving and fitting my use-case.
+
 # homebridge-loxone-connect
 Homebridge plugin for controlling Loxone.
 
-❤️ [One-time donation](https://paypal.me/activebyte)
+❤️ [One-time donation to Activebyte](https://paypal.me/activebyte)
 
 There are a few variants from the original loxone homebridge plugin,
 but they all have the same problem. Most of them are abandoned and they don't work completely.
