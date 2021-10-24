@@ -42,9 +42,12 @@ module.exports = homebridge => {
     Utility.addSupportTo(ItemFactory.Outlet, ItemFactory.Switch);
     Utility.addSupportTo(ItemFactory.Pushbutton, ItemFactory.Switch);
     Utility.addSupportTo(ItemFactory.Fan, ItemFactory.Switch);
-    
+
     //Add childs of shower
     Utility.addSupportTo(ItemFactory.Sprinkler, ItemFactory.Valve);
+
+    //Pieter EIBBlinds
+    Utility.addSupportTo(ItemFactory.EIBBlinds, ItemFactory.AbstractItem);
 
     homebridge.registerPlatform("homebridge-loxoneWs", "LoxoneWs", LoxPlatform);
 };

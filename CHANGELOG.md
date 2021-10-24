@@ -1,6 +1,10 @@
 
 # Change Log
 
+## [1.1.2] 2021/10/24
+
+- Fork ActiveByte to plewyllie
+
 ## [1.1.1] - 2021/08/13
 
 
